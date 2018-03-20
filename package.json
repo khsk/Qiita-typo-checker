@@ -1,0 +1,18 @@
+{
+  "name": "qiita-typo-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "khsk",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^4.0.1",
+    "axios": "^0.18.0",
+    "date-utils": "^1.2.21",
+    "dotenv": "^5.0.1",
+    "yarn": "^1.5.1"
+  }
+}
