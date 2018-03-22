@@ -1,3 +1,4 @@
+require('dotenv').config();
 require('date-utils');
 const axios = require('axios');
 
