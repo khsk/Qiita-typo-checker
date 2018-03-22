@@ -8,7 +8,7 @@ const { IncomingWebhook } = require('@slack/client');
 const slackDefaultValue = {
     username   : 'Qiita typo checker',
     icon_emoji : ':books:',
-    channel    : 'hitorigoto',
+    channel    : process.env.SLACK_CHANNEL,
     text       : 'Typoの可能性がある記事です',
 };
 const webhook = new IncomingWebhook(process.env.SLACK_INCOMING_URL, slackDefaultValue);
