@@ -15,6 +15,8 @@ module.exports = {
     coffee                 : ['cofee', 'coffe(?!e)',],
     command                : ['comand',],
     commit                 : ['comit',],
+    communication          : ['comunication',],
+    community              : ['comunity',],
     composer               : ['compoesr','compsoer','conposer'],
     configure              : ['configre',],
     console                : ['conosle',],
