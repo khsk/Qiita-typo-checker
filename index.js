@@ -79,7 +79,7 @@ const getItems = async () => {
 
 
 
-(async  () => {
+module.exports = async () => {
     const items = await getItems();
 
     items.forEach(item => {
@@ -107,7 +107,7 @@ const getItems = async () => {
 
         sendSlack(item);
     });
-})();
+};
 
 
 
