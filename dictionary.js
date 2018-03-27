@@ -68,7 +68,7 @@ module.exports = {
     qiita                  : ['qita','qiit(?!a)',],
     raspberry              : ['rasberry',],
     raspbian               : ['rasbian',],
-    require                : ['reqiure','requrie',],
+    require                : ['reqiure','requrie','reuqire'],
     receive                : ['recieve',],
     return                 : ['reutrn','retun',],
     scratch                : ['scrach',],
