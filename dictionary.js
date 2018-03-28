@@ -61,6 +61,7 @@ module.exports = {
     nginx                  : ['engix',],
     node                   : ['ndoe',],
     notifier               : ['notifer',],
+    origin                 : ['origine','orign',],
     override               : ['overide',],
     parcel                 : ['percel',],
     plugin                 : ['plagin',],
