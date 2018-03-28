@@ -52,6 +52,7 @@ module.exports = {
     intellij               : ['intelij','intellj','intelj',],
     install                : ['isntall','instal(?!l)',],
     kotlin                 : ['kotolin',],
+    language               : ['langage',],
     lambda                 : ['lamda', 'lamba', 'lamdba',],
     laravel                : ['lalavel','laraval',],
     mastodon               : ['mastdon',],
