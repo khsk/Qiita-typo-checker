@@ -49,6 +49,7 @@ module.exports = {
     imagemagick            : ['imagemagic(?!k)',],
     import                 : ['inport',],
     information            : ['infomation',],
+    integer                : ['intger',],
     intellij               : ['intelij','intellj','intelj',],
     install                : ['isntall','instal(?!l)',],
     kotlin                 : ['kotolin',],
