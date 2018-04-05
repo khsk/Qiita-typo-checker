@@ -28,8 +28,8 @@ const makeMessage = (item) => {
             {
                 color       : '#55c500',
                 author_icon : item.user.profile_image_url,
-                author_name : item.user.name,
-                author_link : item.user.id,
+                author_name : item.user.name || item.user.id,
+                author_link : 'https://qiita.com/' + item.user.id,
                 title       : item.title,
                 title_link  : item.url,
                 text        : item.body.slice(0, 117),
