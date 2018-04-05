@@ -99,6 +99,7 @@ module.exports = {
     yarn                   : ['yarm',],
     yield                  : ['yeild',],
     zabbix                 : ['zabix',],
+    後述                   : ['後術',],
     捕捉                   : ['exceptionを補足','例外を補足',],
     復号                   : ['復号化','複合化','複号化',],
     リクエスト                : ['リクスト',],
