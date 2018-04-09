@@ -60,7 +60,7 @@ module.exports = {
     mastodon               : ['mastdon',],
     message                : ['mesage',],
     mozilla                : ['mozila',],
-    nginx                  : ['engix',],
+    nginx                  : ['enginx',],
     node                   : ['ndoe',],
     notifier               : ['notifer',],
     origin                 : ['origine','orign',],
