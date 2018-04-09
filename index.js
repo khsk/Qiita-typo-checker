@@ -86,7 +86,8 @@ module.exports = async () => {
         // tagはバージョン情報などは不要なので、連結してしまう
         item.tags = Object.keys(item.tags).map(key => item.tags[key].name).join(', ');
         // 検索対象はタイトル、タグ、本文。一度に検索するためつなげてしまう(メモリだいぶ増)
-        let searchTarget = item.title + '\n' + item.body + '\n' + item.tags;
+        // Markdonwの```チェックのためつなげる改行を増やしている`
+        let searchTarget = item.title + '\n\n' + item.body + '\n' + item.tags;
 
         item.typos = {};
         // 検索！
