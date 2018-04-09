@@ -29,7 +29,7 @@ module.exports = {
     description            : ['discription',],
     developer              : ['developper',],
     diff                   : ['diif',],
-    eclipse                : ['eclipce',],
+    eclipse                : ['eclipce','eclips(?!e)'],
     edge                   : ['egde',],
     elasticsearch          : ['elatic',],
     enable                 : ['enalbe',],
