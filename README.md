@@ -5,7 +5,7 @@ Qiitaの投稿からtypoを検出します。
 
 # インストール
 
-`npm install -S khsk/qiita-typo-checker`
+`npm install -S khsk/qiita-typo-checker`  
 `yarn add khsk/qiita-typo-checker`
 
 # 実行
@@ -16,8 +16,6 @@ Qiitaの投稿からtypoを検出します。
 
 ## 手動実行
 `npx khsk/qiita-typo-checker`
-で実行します。
-
 
 ## プログラム中での実行
 
@@ -33,6 +31,6 @@ require('qiita-typo-checker')();
 
 # 使い方
 
-`crontab`や`cron`パッケージを使い、毎日定期実行する方法がよろしいかと思います。
+`crontab`や`cron`パッケージを使い、毎日定期実行する方法がよろしいかと思います。  
 時刻設定ができないので、日付更新直後が取りこぼしも少なく、翌日に重複検知されにくい時刻でオススメです。
 
