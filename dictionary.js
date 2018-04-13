@@ -91,6 +91,7 @@ module.exports = {
     tampermonkey           : ['tempermonkey',],
     true                   : ['treu',],
     ubuntu                 : ['ubntu',],
+    unknown                 : ['unkown',],
     update                 : ['updata',],
     url                    : ['ulr',],
     verbose                : ['varbose',],
