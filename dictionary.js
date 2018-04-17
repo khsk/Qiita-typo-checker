@@ -58,6 +58,7 @@ module.exports = {
     lambda                 : ['lamda', 'lamba', 'lamdba',],
     laravel                : ['lalavel','laraval',],
     linux                  : ['linax',],
+    license                : ['licence','lisence','lisense',],
     mastodon               : ['mastdon',],
     message                : ['mesage',],
     mozilla                : ['mozila',],
