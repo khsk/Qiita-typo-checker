@@ -70,6 +70,7 @@ module.exports = {
     parcel                 : ['percel',],
     plugin                 : ['plagin',],
     postgresql             : ['postgressql',],
+    programming            : ['programing',],
     puppeteer              : ['puppeter','pupeter','puppter','pappeter','pupetter',],
     qiita                  : ['qita','qiit(?!a)',],
     raspberry              : ['rasberry',],
