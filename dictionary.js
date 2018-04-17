@@ -84,7 +84,7 @@ module.exports = {
     separate               : ['seperate',],
     service                : ['serivce',],
     share                  : ['shere',],
-    sign                   : ['sing(_|\s)?(out|in|up|off)',],
+    sign                   : ['sing(_|\\s)?(out|in|up|off)',],
     slack                  : ['slak',],
     standard               : ['standerd',],
     studio                 : ['stadio',],
