@@ -22,6 +22,7 @@ module.exports = {
     console                : ['conosle',],
     construct              : ['constract',],
     controller             : ['controler',],
+    create                 : ['(?<!o_)creat(?!e|ion|ive|ing|or)',],
     creator                : ['creater',],
     css                    : ['ccs',],
     datetime               : ['datatime',],
