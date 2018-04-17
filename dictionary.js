@@ -43,6 +43,7 @@ module.exports = {
     getElementById         : ['getElementsById',],
     getElementsByClassName : ['getElementByClassName',],
     global                 : ['gloval',],
+    googleappsscript       : ['google\\s?app\\s?script',],
     gradle                 : ['gladle',],
     hello                  : ['hallo','hellow(?!orld)',],
     http                   : ['htttp','htpp','htp(?!asswd)',],
