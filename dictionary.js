@@ -47,7 +47,7 @@ module.exports = {
     global                 : ['gloval',],
     googleappsscript       : ['google\\s?app\\s?script',],
     gradle                 : ['gladle',],
-    hello                  : ['hallo','hellow(?!orld)',],
+    hello                  : ['(?<!s)hallo(?!w)','hellow(?!orld)',],
     http                   : ['htttp','htpp','htp(?!asswd)',],
     ifttt                  : ['ifftt','iffft','itfff',],
     imagemagick            : ['imagemagic(?!k)',],
