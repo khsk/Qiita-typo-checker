@@ -1,5 +1,5 @@
 module.exports = {
-    access                 : ['acces(?!s)', 'acess', 'aceess',],
+    access                 : ['(?<!e)acces(?!s)', 'acess', 'aceess',],
     action                 : ['aciton', 'actoin',],
     android                : ['andriod',],
     arduino                : ['ardino','aruduino','arudino',],
