@@ -44,6 +44,7 @@ module.exports = {
     function               : ['fucntion', 'funciton',],
     getElementById         : ['getElementsById',],
     getElementsByClassName : ['getElementByClassName',],
+    githubpages            : ['github(\\s|-|_)?page(?!s)'],
     global                 : ['gloval',],
     googleappsscript       : ['google\\s?app\\s?script',],
     gradle                 : ['gladle',],
