@@ -79,6 +79,7 @@ module.exports = {
     programming            : ['programing',],
     property               : ['propety',],
     puppeteer              : ['puppeter','pupeter','puppter','pappeter','pupetter',],
+    python                 : ['pyton'],
     qiita                  : ['qita','qiit(?!a)',],
     raspberry              : ['rasberry',],
     raspbian               : ['rasbian',],
