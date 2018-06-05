@@ -64,6 +64,7 @@ module.exports = {
     linux                  : ['linax',],
     license                : ['licence','lisence','lisense',],
     mastodon               : ['mastdon',],
+    merge                  : ['marge'],
     message                : ['mesage',],
     mozilla                : ['mozila',],
     nginx                  : ['enginx',],
