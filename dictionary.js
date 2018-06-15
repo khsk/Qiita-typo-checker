@@ -58,6 +58,7 @@ module.exports = {
     intellij               : ['intelij','intellj','intelj',],
     install                : ['isntall','instal(?!l)',],
     kotlin                 : ['kotolin',],
+    kubernetes             : ['kubernates',],
     language               : ['langage',],
     lambda                 : ['lamda', 'lamba', 'lamdba',],
     laravel                : ['lalavel','laraval',],
