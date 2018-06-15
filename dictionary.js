@@ -109,6 +109,7 @@ module.exports = {
     verbose                : ['varbose',],
     version                : ['varsion',],
     webhook                : ['webhock',],
+    window                 : ['widow','windw',],
 /*    word                   : ['(?<!for)ward',], // 一般的すぎるので除去 reward award ... */
     yarn                   : ['yarm',],
     yield                  : ['yeild',],
