@@ -88,7 +88,7 @@ module.exports = {
     receive                : ['recieve',],
     return                 : ['reutrn','retun',],
     scratch                : ['scrach',],
-    script                 : ['scirpt',],
+    script                 : ['scirpt','scrit',],
     search                 : ['seach','serach',],
     separate               : ['seperate',],
     service                : ['serivce',],
