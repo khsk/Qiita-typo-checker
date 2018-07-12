@@ -57,6 +57,7 @@ module.exports = {
     integer                : ['intger',],
     intellij               : ['intelij','intellj','intelj',],
     install                : ['isntall','instal(?!l)',],
+    jupyter                : ['(?<!junit.)jupiter',],
     kotlin                 : ['kotolin',],
     kubernetes             : ['kubernates',],
     language               : ['langage',],
