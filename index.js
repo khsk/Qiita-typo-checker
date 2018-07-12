@@ -92,7 +92,7 @@ module.exports = async () => {
         item.typos = {};
         // 検索！
         Object.keys(DICTIONARY).forEach(correct => {
-            let regexp = new RegExp('(' + DICTIONARY[correct].join('|') + ')', 'gi');
+            let regexp = new RegExp('(' + DICTIONARY[correct].join('|') + ')', 'gim');
             let matches = searchTarget.match(regexp);
             if(!matches) {
                 return;
