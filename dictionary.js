@@ -23,6 +23,7 @@ module.exports = {
     console                : ['conosle',],
     construct              : ['constract',],
     controller             : ['controler',],
+    cors                   : ['(?<!mi|ma)cros(?!s)',],
     create                 : ['(?<!o_)creat(?!e|ion|ive|ing|or)',],
     creator                : ['creater',],
     css                    : ['(?<!a)ccs',],
