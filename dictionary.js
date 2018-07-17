@@ -98,6 +98,7 @@ module.exports = {
     sign                   : ['(?<!u|mis)sing(_|\\s)?(out|in|up|off)',],
     slack                  : ['slak',],
     standard               : ['standerd',],
+    storage                : ['strage',],
     studio                 : ['stadio',],
     support                : ['suport',],
     swift                  : ['swfit',],
