@@ -95,7 +95,7 @@ module.exports = {
     separate               : ['seperate',],
     service                : ['serivce',],
     share                  : ['shere',],
-    sign                   : ['(?<!u|mis)sing(_|\\s)?(out|in|up|off)',],
+    sign                   : ['(?<!u|mis|proces|acces)sing(_|\\s)?(out|in|up|off)',],
     slack                  : ['slak',],
     standard               : ['standerd',],
     storage                : ['strage',],
