@@ -10,6 +10,7 @@ module.exports = {
     calendar               : ['calender',],
     callback               : ['calback','collback',],
     chainer                : ['chiner',],
+    channel                : ['chanel','channnel',],
     chocolatey             : ['chocolatery',],
     chrome                 : ['chorome',],
     chromium               : ['chronium',],
