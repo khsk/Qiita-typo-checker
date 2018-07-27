@@ -72,7 +72,7 @@ module.exports = {
     message                : ['mesage',],
     mozilla                : ['mozila',],
     nginx                  : ['enginx',],
-    node                   : ['ndoe',],
+    node                   : ['(?<!joh)ndoe',],
     notifier               : ['notifer',],
     origin                 : ['origine','orign',],
     override               : ['overide',],
