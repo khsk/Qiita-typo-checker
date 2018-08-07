@@ -85,7 +85,7 @@ module.exports = {
     puppeteer              : ['puppeter','pupeter','puppter','pappeter','pupetter',],
     python                 : ['pyton','pyhton','pyhon',],
     qiita                  : ['qita','qiit(?!a)','quiita','qitta',],
-    raspberry              : ['rasberry',],
+    raspberry              : ['rasberry','raspbery','rasbery',],
     raspbian               : ['rasbian',],
     require                : ['reqiure','requrie','reuqire'],
     receive                : ['recieve',],
