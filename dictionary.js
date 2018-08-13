@@ -5,6 +5,7 @@ module.exports = {
     arduino                : ['ardino','aruduino','arudino',],
     behavior               : ['(?<!mono)behaviour',],
     browser                : ['brawser',],
+    bootstrap              : ['boostrap','bootsrap',],
     bottom                 : ['botton','buttom',],
     button                 : ['botton','buttom',],
     calendar               : ['calender',],
