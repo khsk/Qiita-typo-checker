@@ -19,10 +19,28 @@ Qiitaの投稿からtypoを検出します。
 
 ## プログラム中での実行
 
-```
+```js
 require('qiita-typo-checker')();
 ```
 
+### cron例
+
+```js
+const CronJob = require('cron').CronJob;
+const checker = require('qiita-typo-checker')
+
+const job = new CronJob({
+  cronTime: '0 0 0 * * * *',
+  onTick: () => {
+    console.log('run');
+    checker();
+    console.log('complete');
+
+  },
+  start: true,
+  timeZone: 'Asia/Tokyo',
+});
+```
 
 # 検索範囲
 
