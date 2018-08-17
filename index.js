@@ -4,6 +4,9 @@ const axios = require('axios');
 
 const DICTIONARY = require('./dictionary');
 
+const TextLintEngine = require('textlint').TextLintEngine;
+const engine = new TextLintEngine();
+
 const { IncomingWebhook } = require('@slack/client');
 const slackDefaultValue = {
     username   : 'Qiita typo checker',
@@ -82,12 +85,15 @@ const getItems = async () => {
 module.exports = async () => {
     const items = await getItems();
 
-    items.forEach(item => {
+    // forEach await待たない問題があるので、素直にするならfor of continue にする
+    for (let item of items) {
         // tagはバージョン情報などは不要なので、連結してしまう
         item.tags = Object.keys(item.tags).map(key => item.tags[key].name).join(', ');
         // 検索対象はタイトル、タグ、本文。一度に検索するためつなげてしまう(メモリだいぶ増)
         // Markdonwの```チェックのためつなげる改行を増やしている`
         let searchTarget = item.title + '\n\n' + item.body + '\n' + item.tags;
+        // 量が多すぎるとtextlintが終わらないので、バイナリ、トークンなど長大データをそのまま貼り付けた行などを排除する それでもダメならlengthで足切りを検討
+        searchTarget = searchTarget.replace(/.{200,}/g, '');
 
         item.typos = {};
         // 検索！
@@ -100,17 +106,20 @@ module.exports = async () => {
             item.typos[correct] = matches.join(', ');
         });
 
+        const result = await engine.executeOnText(searchTarget).catch(e => { 
+            console.log('textlint error', e);
+            return [{messages : []}];
+        });
+        result[0].messages.forEach(message => {
+            item.typos[message.message] = message.fix || message.ruleId;
+        });
+
         if (Object.keys(item.typos).length == 0) {
-            return;
+            continue;
         }
 
         // console.log(item.typos); // debug
 
         sendSlack(item);
-    });
+    };
 };
-
-
-
-
-
