@@ -110,7 +110,7 @@ module.exports = {
     true                   : ['treu',],
     ubuntu                 : ['ubntu',],
     unknown                : ['unkown',],
-    update                 : ['updata','udpate',],
+    update                 : ['updata(?!ble)','udpate',],
     url                    : ['ulr',],
     verbose                : ['varbose',],
     version                : ['varsion',],
