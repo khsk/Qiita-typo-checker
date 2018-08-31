@@ -27,7 +27,7 @@ module.exports = {
     controller             : ['controler',],
     cors                   : ['(?<!mi|ma)cros(?!s)',],
     create                 : ['(?<!o_)creat(?!e|ion|ive|ing|or)',],
-    creator                : ['creater',],
+    creator                : ['creater(?!ole)',],
     css                    : ['(?<!a)ccs',],
     datetime               : ['datatime',],
     default                : ['defualt',],
