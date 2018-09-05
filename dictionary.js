@@ -113,6 +113,7 @@ module.exports = {
     unknown                : ['unkown',],
     update                 : ['updata(?!ble)','udpate',],
     url                    : ['ulr',],
+    variable               : ['valiable',],
     verbose                : ['varbose',],
     version                : ['varsion',],
     webhook                : ['webhock',],
