@@ -2,6 +2,7 @@ module.exports = {
     access                 : ['(?<!e)acces(?!s)', 'acess', 'aceess',],
     action                 : ['aciton', 'actoin',],
     android                : ['andriod',],
+    analyze                : ['analize',],
     arduino                : ['ardino','aruduino','arudino',],
     behavior               : ['(?<!mono)behaviour',],
     browser                : ['brawser',],
