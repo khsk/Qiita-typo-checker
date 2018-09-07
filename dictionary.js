@@ -61,7 +61,7 @@ module.exports = {
     integer                : ['intger',],
     intellij               : ['intelij','intellj','intelj',],
     install                : ['isntall','instal(?!l)',],
-    jquery                 : ['jqery','jqury','jquey','jquerry','jquer(?!y)',],
+    jquery                 : ['jqery','jqury','jquey','jquerry','jquer(?!y)','jqeury',],
     jupyter                : ['(?<!junit.)jupiter',],
     kotlin                 : ['kotolin',],
     kubernetes             : ['kubernates',],
