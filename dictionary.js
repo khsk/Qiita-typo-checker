@@ -35,6 +35,7 @@ module.exports = {
     description            : ['discription',],
     developer              : ['developper',],
     diff                   : ['diif',],
+    docker                 : ['dcoker','doker','docer','dokcer','docekr','dcker',],
     eclipse                : ['eclipce','eclips(?!e)'],
     edge                   : ['egde',],
     elasticsearch          : ['elatic',],
