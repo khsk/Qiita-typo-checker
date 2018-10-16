@@ -18,7 +18,7 @@ module.exports = {
     chromium               : ['chronium',],
     coffee                 : ['cofee', 'coffe(?!e)',],
     command                : ['comand',],
-    comment                : ['coment','comment',],
+    comment                : ['coment','commnet',],
     commit                 : ['comit',],
     communication          : ['comunication',],
     community              : ['comunity',],
