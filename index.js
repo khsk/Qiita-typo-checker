@@ -59,7 +59,7 @@ const getItems = async () => {
     const api_url   = 'https://qiita.com/api/v2/items';
     const per_page  = 100;
     const yesterday = (new Date.yesterday()).toFormat('YYYY-MM-DD');
-    let query       = 'created:>' + yesterday;
+    let query       = 'created:>=' + yesterday;
     let page        = 1;
 
     let items = [];
