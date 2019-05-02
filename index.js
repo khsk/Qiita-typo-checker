@@ -94,6 +94,8 @@ module.exports = async () => {
         let searchTarget = item.title + '\n\n' + item.body + '\n' + item.tags;
         // 量が多すぎるとtextlintが終わらないので、バイナリ、トークンなど長大データをそのまま貼り付けた行などを排除する それでもダメならlengthで足切りを検討
         searchTarget = searchTarget.replace(/.{200,}/g, '');
+        // kuromojiエラー対策
+        searchTarget = searchTarget.replace(/\x00/g, ' ');
 
         item.typos = {};
         // 検索！
