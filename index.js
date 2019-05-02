@@ -59,7 +59,7 @@ const getItems = async () => {
     const api_url   = 'https://qiita.com/api/v2/items';
     const per_page  = 100;
     const yesterday = (new Date.yesterday()).toFormat('YYYY-MM-DD');
-    let query       = 'created:>=' + yesterday;
+    let query       = 'created:>=' + '2018-12-05' + ' created:<2018-12-06';
     let page        = 1;
 
     let items = [];
@@ -71,7 +71,9 @@ const getItems = async () => {
             return false;
         });
 
-        if (!res || res.data.length == 0) {
+        if (!res || res.data.length == 0 || res.data.length < per_page ) {
+console.log('残り ', res.headers)
+console.log('残り ', res.headers['rate-remaining'])
             break;
         }
         items = items.concat(res.data);
@@ -94,6 +96,8 @@ module.exports = async () => {
         let searchTarget = item.title + '\n\n' + item.body + '\n' + item.tags;
         // 量が多すぎるとtextlintが終わらないので、バイナリ、トークンなど長大データをそのまま貼り付けた行などを排除する それでもダメならlengthで足切りを検討
         searchTarget = searchTarget.replace(/.{200,}/g, '');
+        // kuromojiエラー対策
+        searchTarget = searchTarget.replace(/\x00/g, ' ');
 
         item.typos = {};
         // 検索！
