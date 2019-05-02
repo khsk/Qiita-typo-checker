@@ -8,7 +8,7 @@ module.exports = {
     browser                : ['brawser',],
     bootstrap              : ['boostrap','bootsrap','bootstap',],
     bottom                 : ['botton','buttom',],
-    bulma                  : ['bluma'],
+    bulma                  : ['bluma',],
     button                 : ['botton','buttom',],
     calendar               : ['calender',],
     callback               : ['calback','collback',],
