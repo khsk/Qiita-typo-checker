@@ -116,7 +116,7 @@ module.exports = {
     table                  : ['tabel',],
     tampermonkey           : ['tempermonkey',],
     true                   : ['treu',],
-    ubuntu                 : ['ubntu','ubutu','ubunt',],
+    ubuntu                 : ['ubntu','ubutu','ubunt(?!u)',],
     unknown                : ['unkown',],
     update                 : ['updata(?!ble)','udpate',],
     url                    : ['ulr',],
