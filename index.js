@@ -75,7 +75,8 @@ const getItems = async () => {
             return false;
         });
 
-        if (!res || res.data.length == 0) {
+        if (!res || res.data.length == 0 || res.data.length < per_page ) {
+            console.log('残リクエスト可能回数 : ', res.headers['rate-remaining'])
             break;
         }
         items = items.concat(res.data);
