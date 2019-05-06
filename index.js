@@ -47,7 +47,11 @@ const makeMessage = (item) => {
 const sendSlack = item => {
     webhook.send(makeMessage(item), (err, res) => {
         if (err) {
-            console.log('Error:', err);
+            if (err.response.statusText == 'Too Many Requests') {
+                console.log('Error:', err.original.config.data);
+            } else {
+                console.log('Error:', err);
+            }
         } else {
             console.log('Message sent: ', res);
         }
